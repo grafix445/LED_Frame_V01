@@ -4,7 +4,7 @@ import sys
 import os, os.path
 import argparse
 from rpi_ws281x import PixelStrip, Color
-from PIL import Image, ImageSequence
+from Pillow import Image, ImageSequence
 import time
 from Bilder import bilder_import
 
