@@ -2,7 +2,7 @@ from PIL import Image
 import os, os.path
 from random import randint
 
-path = '/home/pi/Desktop/LED_Frame/Bilder/'
+path = '/home/pi/LED/LED_Frame_V01'
 
 alle_files = os.listdir(path)
 alle_bilder = []
