@@ -8,8 +8,8 @@ from PIL import Image, ImageSequence
 import time
 from Bilder import bilder_import
 
-path = '/home/pi/Desktop/LED_Frame/Bilder/'
-sys.path.append('/home/pi/Desktop/LED_Frame/Bilder/')
+path = '/home/pi/LED/LED_Frame_V01'
+sys.path.append('/home/pi/LED/LED_Frame_V01')
 path_menu = '/home/pi/Desktop/LED_Frame/Menu/'
 
 #------------------------------------
