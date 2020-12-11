@@ -127,7 +127,7 @@ def menu_ausgeben(strip):
 
 
 def main():
-    gif_aktivieren(strip, gif_hello)
+    #gif_aktivieren(strip, gif_hello)
     random_starten(strip)
     
 
