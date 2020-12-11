@@ -14,11 +14,6 @@ path_menu = '/home/pi/Desktop/LED_Frame/Menu/'
 
 #------------------------------------
 
-gif_select = bilder_import.gif('Select.gif', path_menu)
-gif_bye = bilder_import.gif('Bye.gif', path_menu)
-gif_hello = bilder_import.gif('Hello.gif', path_menu)
-gif_error = bilder_import.gif('Wrong.gif', path_menu)
-
 # LED strip configuration:
 LED_COUNT = 256        # Number of LED pixels.
 #LED_PIN = 18          # GPIO pin connected to the pixels (18 uses PWM!).
