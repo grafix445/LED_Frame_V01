@@ -59,7 +59,7 @@ def frames_konvertieren(frames):
 
 
 class gif:
-    def __init__(self, file_name, path = '/home/pi/Desktop/LED_Frame/Bilder/'):
+    def __init__(self, file_name, path = '/home/pi/LED/LED_Frame_V01/Bilder/'):
         self.gif = Image.open(path + file_name)
         self.frames = [] #Liste [img1][img2][img3][img4][img5]
         self.description = file_name
