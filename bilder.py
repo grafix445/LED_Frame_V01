@@ -65,13 +65,13 @@ def shutdown(strip):
 
 def random_starten(strip):
     while True:
-        try:
+        #try:
             bild_single_random(strip)
-        
-        except KeyboardInterrupt:
-            auswahl = menu_ausgeben(strip)
-            if auswahl == 0:
-                break
+
+        #except KeyboardInterrupt:
+            #auswahl = menu_ausgeben(strip)
+            #if auswahl == 0:
+                #break
 
 
             
